@@ -12,6 +12,7 @@ import bs4
 from bs4 import BeautifulSoup
 import multiprocessing
 from multiprocessing.dummy import Pool
+import Path
 
 genre_list = ['portrait', 'landscape', 'genre-painting', 'abstract', 'religious-painting', 
               'cityscape', 'sketch-and-study', 'figurative', 'illustration', 'still-life', 
