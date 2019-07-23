@@ -104,7 +104,7 @@ def main(typep, searchword, num_pages, output_dir):
 
 if __name__ == '__main__':
     args = parser.parse_args()
-    searchword, typep = ('landscape', 'genre') if args.genre is not None else (args.style, 'style')
+    searchword, typep = ('landscape', 'genre') if args.genre is not None else (None, 'style')
     num_pages = 1000000
     output_dir = '/content'
     main(typep, searchword, num_pages, output_dir)
